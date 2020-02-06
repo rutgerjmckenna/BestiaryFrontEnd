@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("http://svite-league-apps-content.s3.amazonaws.com/bgimages/grunge-paper.jpg");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.parentDiv {
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.Main-title {
+  float: center;
+  margin-left: 500px;
+  margin-right: 175px;
+  height: auto;
+  width: 50vh;
+}
+
+.Demon-One {
+  float:right;
+  object-fit: scale-down;
+  margin-top: 115px;
+  margin-left: 0px;
+  position: absolute;
+  width: 400px;
+  height: 300px;
+}
+
+.Demon-Two {
+  float:left;
+  transform: scaleX(-1);
+  object-fit: scale-down;
+  margin-top: 12px;
+  position: absolute;
+  width: 300px;
+  height: 270px;
+}
+
+.Dragon {
+  float:left;
+  object-fit: cover;
+  object-position: 100% 0;
+
+  width: 220px;
+  height: 750px;
+}
+
+.Index-column {
+  float: left;
+  padding: 50px
+}
+
+.Search-column {
+  float: left;
+  text-align: center;
+  padding: 50px
+}
+
+.Favorites-column {
+  float: left;
+  padding: 50px
+}
+
+.small-Img {
+  display: inline-block;
+  height: 15vh;
+  width: auto;
+}
+
+.Img {
+  height: 30vh;
+  width: auto;
+  border:5px solid #c70e0e;
+}
+
+.Favorite-img {
+  height: 20vh;
+  width: auto;
+  opacity: 0.7;
+}
+
+.Thin-border {
+  border:1px solid #c70e0e;
+  color: #c70e0e;
+}
+
+.Red-text {
+  font-family: Trattatello;
+  color: #c70e0e;
+}
+
+.Red-text-no-margin {
+  font-family: Trattatello;
+  color: #c70e0e;
+  margin-top: 5px;
+  margin-bottom: 5px
+}
+
+.Red-text-scroll {
+  font-family: Trattatello;
+  overflow-y: scroll;
+  color: #c70e0e;
+}
+
+.Change-font {
+  font-family: Trattatello;
+  margin-top: 5px;
+  margin-bottom: 5px
+}
+
+.Drop-down {
+  font-family: Trattatello;
+  font-size: 16px;
+  color: #c70e0e;
+  border:2px solid #c70e0e;; 
+}
+
+.Input {
+  padding:5px; 
+  border:2px solid #c70e0e;; 
+  color: #c70e0e;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.Submit {
+  padding:5px 15px; 
+  color: #c70e0e;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+}
+
+/* .Three-columns {
+  column-count: 3;
+}
+
+.Monster-list {
+  column-count: 1;
+} */

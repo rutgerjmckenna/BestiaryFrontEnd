@@ -1,0 +1,88 @@
+{
+  "monsters": [
+    {
+      "id": 1,
+      "name": "Aboleth",
+      "type": "Aberration",
+      "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/11/1000/1000/636238825975375671.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Beholder",
+      "type": "Aberration",
+      "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/7/717/1000/1000/636288206263978085.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Chuul",
+      "type": "Aberration",
+      "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/241/1000/1000/636252767122656355.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Djinni",
+      "type": "Elemental",
+      "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/281/1000/1000/636252770322204007.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Efreeti",
+      "type": "Elemental",
+      "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/325/1000/1000/636252775714332067.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Gelatinous Cube",
+      "type": "Ooze",
+      "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/409/1000/1000/636252786406028958.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Kamadan",
+      "type": "Monstrosity",
+      "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/757/1000/1000/636395099189263559.png"
+    },
+    {
+      "id": 8,
+      "name": "Storm Giant",
+      "type": "Giant",
+      "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/105/1000/1000/636252743254029469.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "Stirge",
+      "type": "Beast",
+      "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/111/1000/1000/636252745395103202.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "Wood Woad",
+      "type": "Plant",
+      "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/813/1000/1000/636332091047977401.jpeg"
+    },
+    {
+      "id": 11,
+      "name": "Goblin",
+      "type": "Beast",
+      "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/351/1000/1000/636252777818652432.jpeg"
+    },
+    {
+      "id": 12,
+      "name": "Animated Armor",
+      "type": "Aberration",
+      "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/429/1000/1000/636306156895834255.jpeg"
+    },
+    {
+      "id": 13,
+      "name": "Broo",
+      "type": "Beast",
+      "url": "http://4.bp.blogspot.com/-fTxPCnJkHmQ/VN79VShFRLI/AAAAAAAAFV0/09EZhTSCzmU/s1600/Mon-goatman-concept.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Demon",
+      "type": "Aberration",
+      "url": "https://i.pinimg.com/originals/c1/4a/2e/c14a2ee1d8f866272773332194353d9f.png"
+    }
+  ]
+}
