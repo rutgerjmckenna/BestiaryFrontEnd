@@ -44,9 +44,9 @@ class MainContainer extends Component{
     
     monsterRendering = () => {
         let newArray = this.state.monsters.filter(monsterObj => monsterObj.name.toLowerCase().includes(this.state.query))
-            // if(this.state.query === "") {
-            //     return this.state.monsters
-            // }
+            if(this.state.query === "") {
+                return this.state.monsters
+            }
        return newArray
     }
 
@@ -80,6 +80,8 @@ class MainContainer extends Component{
         .then(resp => resp.json())
         .then(monsterObj => {
             let newArr = [...this.state.monsters, monsterObj]
+            // let sortedArr = newArr.map(monsterObject => monsterObject.name.sort())
+            // console.log(sortedArr)
             this.setState({monsters: newArr})
         })
     }
@@ -91,9 +93,9 @@ class MainContainer extends Component{
      const monsters = this.monsterRendering()
         return(
             <div>
-                <img className="Demon-Two" src="https://www.seekclipart.com/clipng/big/414-4146182_devil-clip-art-black-and-white-black-and.png" alt=""/>
-                <img src="https://www.doubledragongames.com/wp-content/uploads/2017/10/dungeons-dragons.png" alt="" className="Main-title" />
-                <img className="Demon-One" src="https://png2.cleanpng.com/sh/49ffbfae4a02e6ce6661ffc576ceea9f/L0KzQYm3VsI6N6ZvjJH0aYP2gLBuTfRmfppxReVqdHHxPb38gBlnbaMye95ycD3kgsW0hPV3cZ0ye9N7dHByfn68gsM3PmI5TqdqYnW6RXA9VMk0O2UASqMAM0C1SYG8UMI0P2I8RuJ3Zx==/kisspng-devil-satan-lucifer-clip-art-devil-cartoon-5b3661465abe75.6493349215302905023717.png" alt=""/>
+                <img className="Demon-Two" src="https://storage.needpix.com/rsynced_images/devil-33928_1280.png" alt=""/>
+                <img src="https://i.pinimg.com/originals/39/01/27/390127bb4051d747c356740d888d2aed.png" alt="" className="Main-title" />
+                <img className="Demon-One" src="https://www.pngarts.com/files/3/Devil-Transparent-Background-PNG.png" alt=""/>
                 <h1 className="Red-text">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h1>
                 <img className="Dragon" src="https://storage.needpix.com/rsynced_images/dragon-2375817_1280.png" alt=""/>
                 <div className="Index-column">
@@ -106,6 +108,8 @@ class MainContainer extends Component{
                     <img className="small-Img" src="https://www.jing.fm/clipimg/full/222-2226264_transparent-red-20-sided-dice-20-sided-dice.png" alt=""/>
                     <Header searchHandler={this.searchHandler} submitMonster={this.submitNewMonster} selectSpecies={this.selectSpecies} selectHandler={this.selectHandler} monsterLength={this.state.monsters.length}/>
                 </div>
+                <img className="Castle" src="https://www.pngkey.com/png/full/127-1273242_report-abuse-castle-silhouette-no-background.png" alt=""/>
+
             </div>
         )
     }

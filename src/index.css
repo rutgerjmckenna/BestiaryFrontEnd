@@ -20,7 +20,7 @@ code {
 
 .Main-title {
   float: center;
-  margin-left: 500px;
+  margin-left: 520px;
   margin-right: 175px;
   height: auto;
   width: 50vh;
@@ -29,30 +29,40 @@ code {
 .Demon-One {
   float:right;
   object-fit: scale-down;
-  margin-top: 115px;
-  margin-left: 0px;
+  margin-top: 100px;
+  margin-right: 600px;
+  left: 920px;
   position: absolute;
-  width: 400px;
-  height: 300px;
+  max-width: 40%;
+  height: auto;
 }
 
 .Demon-Two {
   float:left;
-  transform: scaleX(-1);
   object-fit: scale-down;
-  margin-top: 12px;
+  margin-top: 100px;
+  margin-left: 60px;
   position: absolute;
-  width: 300px;
-  height: 270px;
+  max-width: 30%;
+  height: auto;
 }
 
 .Dragon {
   float:left;
   object-fit: cover;
   object-position: 100% 0;
-
   width: 220px;
   height: 750px;
+}
+
+.Castle {
+  float: center;
+  margin-left: 350px;
+  margin-top: -200px;
+  object-fit: cover;
+  object-position: 100% 0;
+  height: 300px;
+  width: 50%;
 }
 
 .Index-column {
@@ -75,6 +85,8 @@ code {
   display: inline-block;
   height: 15vh;
   width: auto;
+  z-index: -1;
+  position: relative;
 }
 
 .Img {
