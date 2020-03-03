@@ -1,6 +1,6 @@
 This is a bestiary for Dungeons and Dragons!
 
-![Uploading Screen Shot 2020-03-03 at 2.32.10 PM.png…]()
+![alt text](https://i.imgur.com/bNNAZhy.jpg)
 
 It includes some hard coded back end data without a Ruby back end at the moment. The data is held in a local JSON file and therefore can be manipulated from this repo alone.
 
